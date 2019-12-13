@@ -1,10 +1,9 @@
 # salved-tasks
 
-#### Even or Odd;
+#### Power of two;
 ```javascript
-function even_or_odd(number) {
-  if(number % 2 === 0) return 'Even';
-  else return 'Odd';
+function isPowerOfTwo(n){
+  return !(n & (n - 1)) && n != 0;
 }
 ```
    
