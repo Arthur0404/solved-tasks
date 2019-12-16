@@ -1,5 +1,18 @@
 # salved-tasks
 
+###isReallyNaN
+```javascript
+const isReallyNaN = (val) => {
+  return Number.isNaN(val);  
+  return true || false;
+};
+
+```
+
+
+
+
+
 
 ### Factorial
 ```javascrip 
