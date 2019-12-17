@@ -1,5 +1,17 @@
 # salved-tasks
 
+
+###Is integer safe to use?
+```javascript
+function SafeInteger(n) {
+ if (Number.isSafeInteger(n)) return true;
+ else return false;
+ 
+}
+```
+
+
+
 ###isReallyNaN
 ```javascript
 const isReallyNaN = (val) => {
