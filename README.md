@@ -1,5 +1,14 @@
 # salved-tasks
-
+###Squares sequence
+```javascript
+function squares(x, n) {
+  let arr = [];
+  n > 0 ? arr.push(x) : arr;
+  for (let i =1;i < n; i++)
+  arr.push(Math.pow(arr[i -1],2))
+     return arr;
+}
+```
 ###Alan Partridge II - Apple Turnover
 ```javascript
 function apple(x){
