@@ -1,4 +1,14 @@
 # salved-tasks
+
+###Is every value in the array an array?
+```javascript
+function arrCheck (value){
+for (let i =0; i < value.length;i++) {
+ if (!Array.isArray(value[i])) return false;
+ }
+return true;
+ }
+```
 ###Squares sequence
 ```javascript
 function squares(x, n) {
