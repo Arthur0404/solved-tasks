@@ -1,5 +1,18 @@
 # salved-tasks
 
+
+
+###What is type of variable?
+```javascript
+function type(value) {
+    if(value instanceof Array) return 'array'
+    if (value instanceof Date) return 'date'
+    if (value instanceof Object) return 'object'
+    if (value === null) return 'null'
+    return typeof value;
+  }
+```
+
 ###Is every value in the array an array?
 ```javascript
 function arrCheck (value){
