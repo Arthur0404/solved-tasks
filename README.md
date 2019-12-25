@@ -1,6 +1,11 @@
 # salved-tasks
 
-
+###L1: Set Alarm
+```javascript
+function setAlarm(e, v){
+  return e && !v;
+}
+```
 
 ###What is type of variable?
 ```javascript
