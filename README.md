@@ -1,5 +1,17 @@
 # salved-tasks
 
+###How good are you really?
+```javascript
+function betterThanAverage(classPoints, yourPoints) {
+  let arr = 0;
+  for (let i =0; i <classPoints.length;i++)
+  arr += classPoints[i];
+  let result = arr / classPoints.length;
+  if (result <= yourPoints)return true;
+  else return false;
+}
+```
+
 ###L1: Set Alarm
 ```javascript
 function setAlarm(e, v){
