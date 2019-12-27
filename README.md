@@ -1,5 +1,12 @@
 # salved-tasks
-
+###A wolf in sheep's clothing
+```javascript
+function warnTheSheep(queue) {
+  const arr = queue.indexOf('wolf')
+  return arr === queue.length-1 ? "Pls go away and stop eating my sheep"
+  :`Oi! Sheep number ${queue.length-1-arr}! You are about to be eaten by a wolf!`
+}
+```
 ###How good are you really?
 ```javascript
 function betterThanAverage(classPoints, yourPoints) {
