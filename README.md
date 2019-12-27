@@ -1,4 +1,9 @@
 # salved-tasks
+
+###Be Concise IV - Index of an element in an array
+```javascript
+const find = (array, element) => array.includes(element) ? array.indexOf(element) : "Not found";
+```
 ###A wolf in sheep's clothing
 ```javascript
 function warnTheSheep(queue) {
