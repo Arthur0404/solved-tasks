@@ -1,5 +1,13 @@
 # salved-tasks
 
+
+###Train to remove duplicates from an array with filter()
+```javascript
+function unique(arr) {
+  const a = arr.filter((el,i) => i === arr.indexOf(el))
+  return a;
+}
+```
 ###Be Concise IV - Index of an element in an array
 ```javascript
 const find = (array, element) => array.includes(element) ? array.indexOf(element) : "Not found";
