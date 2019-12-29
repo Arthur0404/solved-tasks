@@ -1,6 +1,12 @@
 # salved-tasks
 
-
+###5 without numbers !!
+```javascript
+function unusualFive() {
+   let arr = 'hello';
+   return arr.length;
+}
+```
 ###Train to remove duplicates from an array with filter()
 ```javascript
 function unique(arr) {
