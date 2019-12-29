@@ -1,5 +1,13 @@
 # salved-tasks
 
+
+###Numbers to Letters
+```javascript
+function switcher(x){
+  return x.reduce((word, number) => `${word}${' ?!abcdefghijklmnopqrstuvwxyz'[29 - number]}`, '')
+  }
+```
+
 ###5 without numbers !!
 ```javascript
 function unusualFive() {
