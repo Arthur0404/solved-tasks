@@ -1,6 +1,11 @@
 # salved-tasks
 
-
+###Find the position!
+```javascript
+function position(letter){
+  return `Position of alphabet: ${letter.charCodeAt() - 96}`
+}
+```
 ###Numbers to Letters
 ```javascript
 function switcher(x){
