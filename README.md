@@ -1,5 +1,12 @@
 # salved-tasks
 
+
+###Regexp Basics - is it a digit?
+  ```javascript
+ String.prototype.digit = function() {
+    return /^\d$/g. test(this)
+  }
+```
 ###Permute a Palindrome
 ```javascript
 function permuteAPalindrome(input) {
