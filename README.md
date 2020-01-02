@@ -1,6 +1,12 @@
 # salved-tasks
 
+###BASIC: Making Six Toast.
+```javascript
+function sixToast(num) {
+  return Math.abs(num -6)
+}
 
+```
 ###Regexp Basics - is it a digit?
   ```javascript
  String.prototype.digit = function() {
