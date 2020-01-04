@@ -1,5 +1,10 @@
 # salved-tasks
-
+###Enumerable Magic #3 - Does My List Include This?
+```javascript
+function include(arr, item){
+  return arr.includes(item);
+}
+```
 ###BASIC: Making Six Toast.
 ```javascript
 function sixToast(num) {
