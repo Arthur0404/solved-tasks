@@ -1,4 +1,11 @@
 # salved-task
+
+###Twice as old
+```javascript
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld - sonYearsOld * 2)
+}
+```
 ###They say that only the name is long enough to attract attention. They also said that only a simple Kata will have someone to solve it. This is a sadly story #1: Are they opposite?
 ```javascript
 function isOpposite(s1,s2){
