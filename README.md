@@ -1,4 +1,18 @@
 # salved-task
+###Multiplication table for number
+```javascript
+function multiTable(number) {
+  let arr = '';
+  for (let i = 1; i <=10;i++){
+    if(i === 10){
+      arr += `${i} * ${number} = ${i * number}`
+      break;
+    }
+    arr += `${i} * ${number} = ${i * number}\n`
+}
+  return arr
+}
+```
 ###USD => CNY
 ```javascript
 function usdcny(usd) {
