@@ -1,5 +1,11 @@
 # salved-task
 
+
+###Exclamation marks series #4: Remove all exclamation marks from sentence but ensure a exclamation mark at the end of string
+```javascript
+const remove = s  =>`${s.replace(/!+/g, '')}!`  
+```
+
 ###Training JS #7: if..else and ternary operator
 ```function saleHotdogs(n){
    if (n < 5 ) {
