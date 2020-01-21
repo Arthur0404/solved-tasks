@@ -1,5 +1,10 @@
 # salved-task
-
+###How many times should I go?
+```javascript
+function howManyTimes(annualPrice, individualPrice) {
+  return Math.ceil(annualPrice / individualPrice)
+}
+```
 
 ###Exclamation marks series #4: Remove all exclamation marks from sentence but ensure a exclamation mark at the end of string
 ```javascript
