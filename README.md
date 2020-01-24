@@ -1,4 +1,10 @@
 # salved-task
+### Contamination #1 -String-
+```javascript
+function contamination(text, char){
+  return char.repeat(text.length)
+}
+```
 ###How many times should I go?
 ```javascript
 function howManyTimes(annualPrice, individualPrice) {
