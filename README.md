@@ -1,4 +1,9 @@
 # salved-task
+
+###pick a set of first elements
+```javascript
+const first = (arr, n =1) => arr.slice(0, n)
+```
 ### Contamination #1 -String-
 ```javascript
 function contamination(text, char){
