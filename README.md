@@ -1,4 +1,11 @@
 # salved-task
+###Grasshopper - Basic Function Fixer
+```javascript
+function addFive(num) {
+  const total = num + 5
+  return total
+}
+```
 ###Simple Fun #261: Whose Move
 ```javascript
 function whoseMove(lastPlayer, win) {
