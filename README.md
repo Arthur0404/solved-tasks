@@ -1,4 +1,12 @@
 # salved-task
+###Simple Fun #261: Whose Move
+```javascript
+function whoseMove(lastPlayer, win) {
+  if (lastPlayer === 'black' && win === false) return 'white'
+  if (lastPlayer === 'white' && win === true) return 'white'
+  else return 'black'
+}
+```
 
 ###pick a set of first elements
 ```javascript
