@@ -1,4 +1,8 @@
 # salved-task
+###Stop gninnipS My sdroW!
+```javascript
+const spinWords = str => str.split(' ').map(el => el.length > 4 ? el.split('').reverse().join('') : el).join(' ')
+```
 ###Grasshopper - Basic Function Fixer
 ```javascript
 function addFive(num) {
