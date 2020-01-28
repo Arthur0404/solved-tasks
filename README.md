@@ -1,4 +1,10 @@
 # salved-task
+###Did she say hallo?
+```javascript
+function validateHello(greetings) {
+    return /(hello|ciao|salut|hallo|hola|ahoj|czesc)/i.test(greetings)
+  }
+```
 ###Training JS #6: Basic data types--Boolean and conditional statements if..else
 ```javascript
 const trueOrFalse = val => (val ? 'true' : 'false')
