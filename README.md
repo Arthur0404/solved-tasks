@@ -1,4 +1,8 @@
 # salved-task
+###Training JS #6: Basic data types--Boolean and conditional statements if..else
+```javascript
+const trueOrFalse = val => (val ? 'true' : 'false')
+```
 ###Stop gninnipS My sdroW!
 ```javascript
 const spinWords = str => str.split(' ').map(el => el.length > 4 ? el.split('').reverse().join('') : el).join(' ')
