@@ -1,4 +1,11 @@
 # salved-task
+###Price of Mangoes
+   ```javascript
+function mango(quantity, price){
+  const arr = Math.floor(quantity / 3)
+  return (quantity - arr) * price
+}
+```
 ###Did she say hallo?
 ```javascript
 function validateHello(greetings) {
