@@ -1,5 +1,9 @@
 # salved-task
-###Leonardo Dicaprio and Oscars
+###Remove duplicate words
+```javascript
+const removeDuplicateWords = s => arr = Array.from(new Set(s.split(' '))).join(' ');
+```
+### Leonardo Dicaprio and Oscars
 ```javascript
   if (oscar === 88)return "Leo finally won the oscar! Leo is happy"
   if(oscar === 86)return "Not even for Wolf of wallstreet?!"
