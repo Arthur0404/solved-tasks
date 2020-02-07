@@ -1,4 +1,18 @@
 # solved-task
+###Valid Parentheses
+```javascript
+function validParentheses(str){
+ const arr = str.split('');
+ let a = 0;
+   for (let i =0; i < arr.length; i++){
+   if (arr[i] === '(') a = a + 1;
+   else if(arr[i] === ')') a= a - 1;
+   if(a < 0) return false;
+   }
+   if(a === 0) return true;
+   else return false;
+}
+```
 ###Arrays Similar
 ```javascript
 function arraysSimilar(arr1, arr2) {
