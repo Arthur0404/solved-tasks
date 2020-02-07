@@ -1,4 +1,14 @@
 # solved-task
+###sPoNgEbOb MeMe
+```javascript
+function spongeMeme(str) {
+  let arr = '';
+  for (let i = 0; i < str.length; i++){
+    arr += (i % 2) ? str[i].toLowerCase() : str[i].toUpperCase();
+    }
+    return arr
+}
+```
 ###Valid Parentheses
 ```javascript
 function validParentheses(str){
