@@ -1,4 +1,16 @@
 # solved-task
+###Playing with cubes II
+```javascript
+function Cube(n) {
+  var side = 0;
+  
+  this.getSide = function() { return side; };
+  this.setSide = function(n) {
+    if (isNaN(n) === true) { return; }
+    side = Math.abs(n);
+  };
+};
+```
 ###sPoNgEbOb MeMe
 ```javascript
 function spongeMeme(str) {
