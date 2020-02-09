@@ -1,4 +1,11 @@
 # solved-task
+###Are they the "same"?
+```javascript
+function comp(array1, array2){
+  if(!array1 || !array2 || array1.length !== array2.length) return false;
+  return array1.map(el => el * el).sort().toString() === array2.sort().toString()
+}
+```
 ###Playing with cubes II
 ```javascript
 function Cube(n) {
