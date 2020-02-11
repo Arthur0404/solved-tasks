@@ -1,4 +1,8 @@
 # solved-task
+###What's Your Poison?
+```javascript
+const find = rats => rats.reduce((a,b) => a + Math.pow(2, b),0)
+```
 ###Are they the "same"?
 ```javascript
 function comp(array1, array2){
