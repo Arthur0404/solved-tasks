@@ -1,4 +1,19 @@
 # solved-task
+###Arrh, grabscrab!
+```javascript
+function grabscrab(anag, dict) {
+  const result = anag.split('').sort().join('')
+  const arr = [];
+  
+  for (let item of dict){
+    itemSorted = item.split('').sort().join('')
+      if (itemSorted === result) {
+        arr.push(item)
+    }
+  }
+  return arr
+}
+```
 ###What's Your Poison?
 ```javascript
 const find = rats => rats.reduce((a,b) => a + Math.pow(2, b),0)
