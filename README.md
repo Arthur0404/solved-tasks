@@ -1,4 +1,16 @@
 # solved-task
+###A Memory game array
+```javascript
+function createTiles(n){
+  if (n % 2 !==0) return [];
+  const arr = [];
+  for (let i = 1; i<=n /2; i++){
+    arr.push(i)
+    arr.push(i)
+  }
+  return arr.slice(0,1).concat(arr.slice(1).sort((a, b) => Math.round(Math.random())))
+}
+```
 ###Difference of 2
 ```javascript
 function twosDifference(input){
