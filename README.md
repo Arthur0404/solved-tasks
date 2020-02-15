@@ -1,4 +1,11 @@
 # solved-task
+###Area or Perimeter
+```javascript
+const areaOrPerimeter = function(l , w) {
+  if (l === w) return l * w
+  else return (l + w) * 2
+};
+```
 ###A Memory game array
 ```javascript
 function createTiles(n){
