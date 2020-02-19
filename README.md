@@ -1,4 +1,9 @@
 # solved-task
+###Arabian String
+```javascript
+const camelize = str => str.replace(/[^a-z0-9]/gi, " ").split` `.map
+(el => el.slice(0, 1).toUpperCase() + el.slice(1).toLowerCase()).join``;
+```
 ###Arguments to Binary addition
 ```javascript
 function arr2bin(arr){
