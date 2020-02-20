@@ -1,4 +1,14 @@
 # solved-task
+###Array#reduce
+```javascript
+Array.prototype.reduce = function(process, initial) {
+  for (let i = 0; i < this.length; i++) {
+    if (!initial){i++;initial=this[0]}
+    initial =  process(initial, this[i]);
+ }
+ return initial
+}
+```
 ###Arabian String
 ```javascript
 const camelize = str => str.replace(/[^a-z0-9]/gi, " ").split` `.map
