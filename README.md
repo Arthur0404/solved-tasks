@@ -1,4 +1,12 @@
 # solved-task
+###A Taste of Curry
+```javascript
+function curry(fun, ...arr) {
+  return function (...arr2){
+    return fun.call(this,...arr, ...arr2)
+  };
+}
+```
 ###Array#reduce
 ```javascript
 Array.prototype.reduce = function(process, initial) {
