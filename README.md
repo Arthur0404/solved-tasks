@@ -1,4 +1,12 @@
 # solved-task
+###extract file name
+```javascript
+class FileNameExtractor {
+    static extractFileName (dirtyFileName) {
+        return dirtyFileName.match(/\d+_.+\..+\./).join``.replace(/^\d+_/,'').replace(/\.$/,'')
+    }
+}
+```
 ###A Taste of Curry
 ```javascript
 function curry(fun, ...arr) {
