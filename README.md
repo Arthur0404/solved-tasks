@@ -1,5 +1,5 @@
 # solved-task
-###Training JS #34: methods of Math---pow() sqrt() and cbrt()
+### Training JS #34: methods of Math---pow() sqrt() and cbrt()
 ```javascript
 const arr = n => Number.isInteger(Math.cbrt(n))
 const cutCube = (volume,n) => arr(n) && arr(volume / n)
