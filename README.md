@@ -1,4 +1,11 @@
 # solved-task
+###Training JS #29: methods of arrayObject---concat() and join()
+```javascript
+function bigToSmall(arr){
+  let result=[].concat(...arr).sort((a,b) => b - a).join('>')
+  return result
+}
+```
 ###+1 Array
 ```javascript
 function upArray(arr){
