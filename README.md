@@ -1,4 +1,16 @@
 # solved-task
+###Check the exam
+```javascript
+const checkExam = (arr1, arr2) => {
+   const arr = arr2.reduce((total, responce, index) => {
+     if(!responce) return total
+     if(responce === arr1[index]) return total + 4
+     if(responce !== arr1[index]) return total -1
+     return total
+   },0)
+  return arr > 0 ? arr : 0
+}
+```
 ###Training JS #29: methods of arrayObject---concat() and join()
 ```javascript
 function bigToSmall(arr){
