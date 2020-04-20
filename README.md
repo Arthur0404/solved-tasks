@@ -280,7 +280,8 @@ const remove = s  =>`${s.replace(/!+/g, '')}!`
 ```
 
 ###Training JS #7: if..else and ternary operator
-```function saleHotdogs(n){
+```javascript
+function saleHotdogs(n){
    if (n < 5 ) {
    return n * 100
    }
@@ -289,7 +290,9 @@ const remove = s  =>`${s.replace(/!+/g, '')}!`
     }
     else if (n >= 10){
     return n * 90}
-   }```
+   }
+```
+
 ###Multiplication table for number
 ```javascript
 function multiTable(number) {
