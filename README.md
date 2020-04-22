@@ -278,7 +278,6 @@ function howManyTimes(annualPrice, individualPrice) {
 ```javascript
 const remove = s  =>`${s.replace(/!+/g, '')}!`  
 ```
-
 ###Training JS #7: if..else and ternary operator
 ```javascript
 function saleHotdogs(n){
