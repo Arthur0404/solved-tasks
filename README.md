@@ -291,7 +291,6 @@ function saleHotdogs(n){
     return n * 90}
    }
 ```
-
 ###Multiplication table for number
 ```javascript
 function multiTable(number) {
