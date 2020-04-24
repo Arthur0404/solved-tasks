@@ -311,7 +311,6 @@ function usdcny(usd) {
   return `${(usd * 6.75).toFixed(2)} Chinese Yuan`
 }
 ```
-
 ###Twice as old
 ```javascript
 function twiceAsOld(dadYearsOld, sonYearsOld) {
@@ -339,7 +338,6 @@ function include(arr, item){
 function sixToast(num) {
   return Math.abs(num -6)
 }
-
 ```
 ###Regexp Basics - is it a digit?
   ```javascript
