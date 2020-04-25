@@ -373,7 +373,6 @@ function switcher(x){
   return x.reduce((word, number) => `${word}${' ?!abcdefghijklmnopqrstuvwxyz'[29 - number]}`, '')
   }
 ```
-
 ###5 without numbers !!
 ```javascript
 function unusualFive() {
@@ -411,14 +410,12 @@ function betterThanAverage(classPoints, yourPoints) {
   else return false;
 }
 ```
-
 ###L1: Set Alarm
 ```javascript
 function setAlarm(e, v){
   return e && !v;
 }
 ```
-
 ###What is type of variable?
 ```javascript
 function type(value) {
