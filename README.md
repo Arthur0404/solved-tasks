@@ -461,18 +461,16 @@ function SafeInteger(n) {
  
 }
 ```
-
 ###isReallyNaN
 ```javascript
 const isReallyNaN = (val) => {
   return Number.isNaN(val);  
   return true || false;
 };
-
 ```
-
 ### Factorial
-```javascrip 
+```javascript
+
 function factorial(n){
  
   return (n != 0) ? n * factorial(n - 1) : 1;
@@ -482,6 +480,5 @@ function factorial(n){
 function isDivideBy(number, a, b) {
  return number % a === 0 && number % b === 0;
 }
-
 ```
    
