@@ -460,7 +460,7 @@ function SafeInteger(n) {
  else return false;
  
 }
-```
+``` 
 ###isReallyNaN
 ```javascript
 const isReallyNaN = (val) => {
@@ -470,7 +470,6 @@ const isReallyNaN = (val) => {
 ```
 ### Factorial
 ```javascript
-
 function factorial(n){
  
   return (n != 0) ? n * factorial(n - 1) : 1;
